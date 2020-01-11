@@ -46,7 +46,7 @@ h2 {
   margin-left: 20px;
   color: #001942;
 }
-p a {
+p a:link {
   color: white;
 }
 hr {
@@ -63,4 +63,7 @@ a:hover {
 }
 .mainpage {
   max-width: 960px;
+}
+.line2 {
+margin-top: -13px;
 }
