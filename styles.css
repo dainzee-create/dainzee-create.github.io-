@@ -1,0 +1,66 @@
+.tophead {
+  border-radius: 15px;
+  background: #561260;
+  max-height: 85px;
+  max-width: 960px;
+}
+.portrait {
+  float: right;
+  margin-right: 20px;
+  margin-top: -75px;
+}
+.name {
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+  margin-left: 113px;
+  padding: 10px;
+  }
+.maintext {
+  background-color: white;
+  margin-top: 40px;
+  margin-bottom: 55px;
+}
+.foot {
+  border-radius: 15px;
+  background: #561260;
+  padding: 20px;
+  max-height: 12px;
+  max-width: 960px;
+}
+p {
+  color: white;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  margin-left: 20px;
+  margin-bottom: 2px;
+  color:#001942;
+}
+.listtext {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  margin-left: 20px;
+  color: #001942;
+}
+p a {
+  color: white;
+}
+hr {
+  margin-left: 20px;
+}
+a:link {
+  color:#561260;
+}
+a:hover {
+  color: #CE00A7;
+}
+.foottext {
+  margin-top: -10px;
+}
+.mainpage {
+  max-width: 960px;
+}
