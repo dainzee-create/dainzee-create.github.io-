@@ -1,32 +1,29 @@
 .mainpage {
   max-width: 960px;
-  margin-left: 10px;
 }
 .tophead {
-  border-radius: 15px;
   background: #561260;
-  max-height: 70px;
-  height:70px;
-  }
-.portrait {
-  float: right;
-  margin-right: 20px;
-  margin-top: -85px;
+  height: 40vh;
 }
  .name {
   color: white;
   font-family: 'PT Serif', serif;
-  font-size: 45px;
-  padding: 10px;
-  margin-left: 102px;
+  font-size: 25px;
+  text-align: center;
   }
 .maintext {
   background-color: white;
   margin-top: 40px;
-  margin-bottom: 55px;
+  margin-bottom: 25px;
+}
+.portrait {
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+ display: table-cell;
+ vertical-align: middle;
 }
 .foot {
-  border-radius: 15px;
   background: #561260;
   padding: 23px;
   max-height: 12px;
@@ -39,7 +36,7 @@ p {
 }
 h2 {
   font-family: 'PT Serif', serif;
-  font-size: 25px;
+  font-size: 15px;
   margin-left: 20px;
   margin-bottom: 2px;
   color:#001942;
