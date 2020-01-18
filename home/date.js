@@ -20,13 +20,13 @@ let months = [
   "October",
   "November",
   "December"
-  ];
-  let d = new Date();
-  let dayName = daynames[d.getDay()];
-  let monthName = months[d.getMonth()];
-  let year = d.getFullYear();
-  let fulldate = dayName + ", " + monthName + " " + d.getDate() + ", " + year;
+];
+let d = new Date();
+let dayName = daynames[d.getDay()];
+let monthName = months[d.getMonth()];
+let year = d.getFullYear();
+let fulldate = dayName + ", " + monthName + " " + d.getDate() + ", " + year;
 
-  document.getElementById("currentdate").textContent = fulldate;
+document.getElementById("currentdate").textContent = fulldate;
 
-  document.getElementById("currentyear").textContent = year;
+document.getElementById("currentyear").textContent = year;

@@ -1,29 +1,35 @@
 @media only screen and (min-width:37.53em) {
-main {
-  grid-template-columns: 1fr 1fr;
-  max-width: 100vw;
-}
-.three {
-  column-count: 2;
-  column-gap: 5px;
- }
-img {
-  width: 445px;
-}
-.tophead {
-  width: 100vw;
-}
-header {
-  color: white;
-  font-family: 'PT Serif', serif;
-  font-size: 25px;
-  text-align: center;
-  margin-top: -8px;
+  main {
+    grid-template-columns: 1fr 1fr;
+    max-width: 100vw;
   }
+
+  .three {
+    column-count: 2;
+    column-gap: 5px;
+  }
+
+  img {
+    width: 445px;
+  }
+
+  .tophead {
+    width: 100vw;
+  }
+
+  header {
+    color: white;
+    font-family: 'PT Serif', serif;
+    font-size: 25px;
+    text-align: center;
+    margin-top: -8px;
+  }
+
   section {
     padding: 15px;
   }
+
   .firstcol {
     margin-bottom: 4000px;
-      }
+  }
 }
