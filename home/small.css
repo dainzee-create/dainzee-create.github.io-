@@ -1,0 +1,70 @@
+.mainpage {
+  max-width: 960px;
+  }
+.tophead {
+  background: #2E004F;
+  height: 40vh;
+}
+ .name {
+  color: white;
+  font-family: 'PT Serif', serif;
+  font-size: 25px;
+  text-align: center;
+  }
+.maintext {
+  background-color: white;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+.portrait {
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+ display: table-cell;
+ vertical-align: middle;
+}
+.foot {
+  background: #2E004F;
+  padding: 23px;
+  max-height: 12px;
+  max-width: 960px;
+}
+p {
+  color: white;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+}
+h2 {
+  font-family: 'PT Serif', serif;
+  font-size: 15px;
+  margin-left: 20px;
+  margin-bottom: 2px;
+  color:#2E004F;
+}
+.listtext {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  margin-left: 20px;
+  color: #2E004F;
+}
+p a:link {
+  color: white;
+}
+hr {
+  margin-left: 20px;
+}
+a:link {
+  color:#2E004F;
+}
+a:hover {
+  color: rgba(253, 4, 108, 0.836);
+}
+.foottext {
+  margin-top: -12px;
+}
+.line2 {
+  margin-top: -30px;
+}
+.footerlink {
+  color:white;
+}

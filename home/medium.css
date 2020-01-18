@@ -1,0 +1,31 @@
+@media only screen and (min-width: 32.5em) {
+  .mainpage {
+    padding-left: 15rem;
+  }
+
+  .name {
+    font-size: 45px;
+    padding: 10px;
+    text-align: left;
+    margin-left: 100px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  .foot {
+    border-radius: 15px;
+  }
+
+  .tophead {
+    border-radius: 15px;
+    height: 70px;
+  }
+
+  .portrait {
+    float: right;
+    margin-right: 20px;
+    margin-top: -85px;
+  }
+}
