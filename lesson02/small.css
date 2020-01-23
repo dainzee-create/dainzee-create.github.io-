@@ -36,6 +36,10 @@ h2 {
   border-top-left-radius: 10px;
 }
 
+.footerlink {
+  color: white;
+}
+
 .three {
   border-style: hidden;
 }
@@ -88,10 +92,6 @@ footer {
   margin-top: -30px;
 }
 
-.footerlink {
-  color: white;
-}
-
 .par {
   font-family: 'PT Serif', serif;
   color: #2E004F;
@@ -101,6 +101,10 @@ footer {
   padding-bottom: 25px;
   line-height: initial;
 }
+
 img {
   width: 450px;
 }
+
+
+
