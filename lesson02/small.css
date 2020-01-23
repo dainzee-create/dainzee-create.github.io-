@@ -56,7 +56,7 @@ h3 {
   margin-left: 12px;
 }
 
-a:link {
+.articlelink {
   font-family: 'PT Sans', sans-serif;
   color: #2E004F;
   font-size: 15px;
