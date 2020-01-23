@@ -47,17 +47,10 @@ h2 {
   color: #2E004F;
 }
 
-p a:link {
-  color: white;
-}
-
 hr {
   margin-left: 20px;
 }
 
-a:link {
-  color: #2E004F;
-}
 
 a:hover {
   color: rgba(253, 4, 108, 0.836);
@@ -74,4 +67,8 @@ a:hover {
 
 .footerlink {
   color: white;
+}
+
+.navlink {
+  color:#2E004F;
 }
