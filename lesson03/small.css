@@ -1,0 +1,176 @@
+header {
+	background-color: #2E004F;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	color: white;
+}
+
+header,
+nav,
+main,
+footer {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: 'PT Serif', serif;
+	font-size: 25px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+nav {
+	background-color: #87014f;
+	text-align: center;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 1.2rem;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+
+}
+
+nav a:hover {
+	background-color: white;
+	color: #87014f;
+
+}
+
+nav a:active {
+	color: #2E004F;
+}
+
+footer {
+	flex: 0 1 100%;
+	max-height: 3rem;
+	width: 100%;
+	background: #2E004F;
+	max-height: 12px;
+	color: white;
+	padding: 35px;
+	text-align: center;
+
+}
+
+.foottext {
+	margin-top: -15px;
+	color: white;
+	font-size: .9rem;
+}
+
+.line2 {
+	margin-top: -40px;
+	color: white;
+	font-size: .9rem;
+}
+
+.footerlink {
+	color: white;
+}
+
+a:hover {
+	color: rgba(253, 4, 108, 0.836);
+}
+
+h2 {
+	font-family: 'PT Sans', sans-serif;
+	color: #87014f;
+	font-size: 1.3rem;
+	text-align: center;
+	line-height: initial;
+	text-decoration: underline;
+	padding: 10px;
+
+}
+
+p {
+	color: #2E004F;
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1.1rem;
+	line-height: 28px;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	width: 300px;
+}
+
+ol {
+	color: #2E004F;
+	text-align: left;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1.1rem;
+	line-height: 28px;
+}
+
+.color {
+	width: 450px;
+}
+
+#sitehead {
+	font-family: "Roboto", sans-serif;
+	font-size: 35px;
+	color: #345681;
+}
+
+#primnav,
+#footernav {
+	font-family: "Lora", serif;
+	font-size: 1.5rem;
+	color: white;
+	background-color: #345681;
+	padding: 8px;
+}
+
+#activelink {
+	font-family: "Lora", serif;
+	font-size: 1.5rem;
+	color: #345681;
+	background-color: #fcb431;
+	padding: 8px;
+	font-weight: bold;
+}
+
+#headingOne {
+	font-family: "Roboto", sans-serif;
+	font-size: 30px;
+	color: #345681;
+}
+
+#headingTwo {
+	font-family: "Roboto", sans-serif;
+	font-size: 25px;
+	color: #345681;
+}
+
+#headingThree {
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+	color: #345681;
+}
+
+#parText {
+	font-family: "Lora"serif;
+	font-size: 1.1rem;
+}

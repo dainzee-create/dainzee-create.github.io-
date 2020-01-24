@@ -1,0 +1,33 @@
+@media only screen and (min-width: 37.5em) {
+  nav ul {
+    display: flex;
+  }
+
+  nav ul li {
+    flex: 1 1 100%;
+  }
+
+  nav a {
+    font-size: 1rem;
+  }
+
+  main {
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    padding: 35px;
+  }
+
+  header {
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  .foottext,
+  .line2 {
+    font-size: 1.1rem;
+  }
+
+  ol {
+    padding-left: 8vw;
+  }
+}
