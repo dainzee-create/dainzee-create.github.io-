@@ -86,10 +86,12 @@ footer {
 .foottext {
   margin-top: -12px;
   color: white;
+  font-family: 'PT Sans', sans-serif;
 }
 
 .line2 {
   margin-top: -30px;
+  font-family: 'PT Sans', sans-serif;
 }
 
 .par {
