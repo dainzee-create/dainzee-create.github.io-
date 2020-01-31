@@ -1,0 +1,114 @@
+body {
+	background-color:#9adbf9;
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	background-color: #fff;
+	padding: 25px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+header img {
+	width: 100px;
+	height: auto;
+}
+
+.titleMotto {
+	display: flex;
+	flex-direction: column;
+}
+
+.titleMotto h1 {
+	font-size: 1.6rem;
+	margin: 0 0 0 17px;
+	font-family: "Roboto", sans-serif;
+	color: #345681;
+
+}
+
+.motto {
+	font-family: "Lora", serif;
+	letter-spacing: 1pt;
+	color: #345681;
+	margin-top: 5px;
+	font-size: .9rem;
+}
+
+nav {
+	background-color: #345681;
+	color: white;
+	font-family: "Lora", serif;
+	font-weight: bolder;
+	margin: 0 auto;
+	max-width: 760px;
+	font-size: 1.1rem;
+	margin-top: -25px;
+
+}
+
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+
+.navigation li:first-child {
+	display: block;
+}
+
+.navigation li {
+	display: none;
+}
+
+.navigation a {
+	display: block;
+	color: #fff;
+	padding: 1.5rem;
+	text-align: left;
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	color: #345681;
+	background-color: #fcb431;
+	font-weight: 700;
+}
+
+.responsive li {
+	display: block;
+}
+
+.placehold {
+	background-color: white;
+	padding: 15px;
+	margin: 15px;
+	text-align: center;
+	font-family: "Lora", serif;
+	color: #345681;
+}
+
+footer {
+	background-color: #345681;
+	color: white;
+	max-width: 100%;
+	padding: 1px;
+	text-align: center;
+	line-height: 5px;
+
+}
+
+picture {
+	margin-top: -8px;
+}
+
+h2 {
+	font-size: 1.6rem;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	color:#345681;
+	font-weight: 900;
+	padding: 7px;
+}
