@@ -1,0 +1,77 @@
+@media only screen and (min-width: 60em) {
+
+  nav {
+    max-width: 100%;
+  }
+
+  .titleMotto h1 {
+    font-size: 2.5rem;
+  }
+
+  .motto {
+    letter-spacing: 1.5pt;
+    font-size: 1.5rem;
+    margin-left: 8px;
+  }
+
+  .article,
+  .contactMap {
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  footer,
+  main {
+    max-width: 980px;
+    margin: 0 auto;
+
+  }
+
+  .smallpic {
+    float: right;
+    margin-top: 8px;
+    margin-right: 8px;
+    width: 600px;
+    margin-left: 12px;
+
+  }
+
+  .mapPreston {
+    float: left;
+    margin-top: 8px;
+    margin-left: 8px;
+  }
+
+  .contactMap {
+    height: 345px;
+  }
+
+  .article {
+    text-align: left;
+  }
+
+  .artText {
+    margin-left: 10px;
+    line-height: 25px;
+  }
+
+  .conText,
+  .firstCont {
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    color: #345681;
+    font-size: 1.1rem;
+    margin-left: 560px;
+    margin-bottom: 18px;
+  }
+
+  .firstCont {
+    margin-top: 65px;
+    font-size: 1.2rem;
+    font-weight: 800;
+  }
+
+
+}
