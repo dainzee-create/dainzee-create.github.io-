@@ -1,0 +1,270 @@
+body {
+	background-color: #a9e0f9;
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	background-color: #fff;
+	padding: 15px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+header img {
+	width: 100px;
+	height: auto;
+}
+
+.titleMotto {
+	display: flex;
+	flex-direction: column;
+}
+
+.titleMotto h1 {
+	font-size: 1.6rem;
+	margin: 0 0 0 17px;
+	font-family: "Roboto", sans-serif;
+	color: #345681;
+
+}
+
+.motto {
+	font-family: "Lora", serif;
+	letter-spacing: 1pt;
+	color: #345681;
+	margin-top: 5px;
+	font-size: .9rem;
+}
+
+nav {
+	background-color: #345681;
+	color: white;
+	font-family: "Lora", serif;
+	margin: 0 auto;
+	max-width: 760px;
+	font-size: 1.2rem;
+
+}
+
+.navigation {
+	list-style: none;
+	margin: 0;
+
+}
+
+.navigation li:first-child {
+	display: block;
+}
+
+.navigation li {
+	display: none;
+}
+
+.navigation a {
+	display: block;
+	color: #fff;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	color: #345681;
+	background-color: #fcb431;
+
+}
+
+.responsive li {
+	display: block;
+}
+
+.article,
+.contactMap {
+	background-color: white;
+	padding: 15px;
+	margin: 15px;
+	text-align: center;
+	font-family: "Lora", serif;
+	color: #345681;
+
+}
+
+footer {
+	background-color: #345681;
+	color: white;
+	width: 100%;
+	max-width: 980px;
+	padding: 1px;
+	text-align: center;
+	line-height: 5px;
+	box-sizing: border-box;
+}
+
+picture {
+	margin-top: -8px;
+}
+
+h2 {
+	font-size: 1rem;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	color: #345681;
+	margin: 4px;
+}
+
+.active {
+	background-color: #122b4c;
+}
+
+.heroimage {
+	margin: 0 auto;
+	max-width: 980px;
+	position: relative;
+}
+
+#popUp {
+	padding: 15px;
+	color: #345681;
+	text-align: center;
+	font-size: 1.2rem;
+	background-color: #fcb431;
+	font-family: "Lora", serif;
+}
+
+.summary {
+	position: absolute;
+	top: 14px;
+	left: 25px;
+	background: radial-gradient(white, #a9e0f9);
+	border: 1px solid #122b4c;
+	padding: 1.1rem;
+	box-shadow: 0 0 30px #122b4c;
+	opacity: .8;
+	max-width: 150px;
+
+}
+
+.weathSum {
+	font-family: "Lora", serif;
+	font-size: .75rem;
+}
+
+.flex {
+	display: none;
+	flex-direction: row;
+	width: 97%;
+	max-width: 980px;
+	margin: 0 auto;
+}
+
+.col {
+	flex: 1 1 100%;
+	border-top: 2px solid #122b4c;
+	border-bottom: 2px solid #122b4c;
+	border-left: 2px solid #122b4c;
+	background-color: #345681;
+	font-size: 13px;
+	text-align: center;
+}
+
+.flex div:last-child {
+	border-right: 2px solid #122b4c;
+}
+
+.label {
+	display: none;
+	padding: 9px;
+	font-weight: 700;
+	font-size: 1.1rem;
+	border-bottom: 2px solid #122b4c;
+	background-color: white;
+	color: #345681;
+	font-family: "Roboto", sans-serif;
+}
+
+.flex div img,
+table img {
+	border-radius: 100px;
+	padding: 5px;
+}
+
+.data {
+	display: none;
+	padding: 0 5px 5px;
+	font-family: "Lora", serif;
+	color: white;
+	font-size: 1.3rem;
+
+}
+
+.conText,
+.firstCont {
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	color: #345681;
+	font-size: 1.1rem;
+	display: block;
+}
+
+.firstCont {
+	font-size: 1.2rem;
+	font-weight: 800;
+}
+
+.fa {
+	padding: 10px;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+}
+
+.fa-facebook {
+	background-color: #3b5998;
+	color: white;
+}
+
+.fa-twitter {
+	background: #55ACEE;
+	color: white;
+}
+
+.fa-youtube {
+	background: #bb0000;
+	color: white;
+}
+
+.fa-pinterest {
+	background: #cb2027;
+	color: white;
+}
+
+.titlePreston {
+	display: none;
+}
+
+.smallpic {
+	margin-top: 8px;
+	margin-right: 8px;
+	width: 90%;
+	margin-left: 12px;
+
+}
+
+.mapPreston {
+	display: none;
+}
+
+.mainPic {
+	max-width: 980px;
+	margin: 0 auto;
+	align-items: center;
+	position: relative;
+}
+
+main figure.mainPic img {
+	width: 100%;
+}
+
