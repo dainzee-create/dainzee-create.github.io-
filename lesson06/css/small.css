@@ -56,6 +56,7 @@ nav {
 
 .navigation li:first-child {
 	display: block;
+
 }
 
 .navigation li {
@@ -268,3 +269,11 @@ main figure.mainPic img {
 	width: 100%;
 }
 
+ul {
+	padding: 0;
+}
+
+.navDiv {
+	height:100%;
+	background-color: #345681;
+}
