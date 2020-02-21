@@ -2,7 +2,7 @@ const imagesToLoad = document.querySelectorAll('img[data-src]');
 
 const imgOptions = {
   threshold: 1,
-  rootMargin: "0 0 50px"
+  rootMargin: "0px 0px 50px"
 };
 
 const loadImages = (image) => {
