@@ -14,8 +14,7 @@ main {
 }
 
 img {
-  padding: 4px;
-  transition: filter 1s;
+  transition: filter 3s;
   filter: blur(.5em);
 
 }
