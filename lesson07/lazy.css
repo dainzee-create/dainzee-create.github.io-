@@ -1,29 +1,29 @@
-body {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 1rem;
-  color: rgb(13, 167, 133);
-  text-align: center;
- }
+* {
+  box-sizing: border-box;
+}
 
 main {
   max-width: 300px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
 
 }
 
-img {
-  transition: filter 3s;
-  filter: blur(.5em);
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 17px;
+  color: rgb(13, 167, 133);
+  text-align: center;
 
 }
 
 img[data-src] {
-  filter: blur(0em);
+  filter: blur(0.2em);
 }
 
-picture {
-  margin: 4px;
+img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+  margin: 7px;
 }
