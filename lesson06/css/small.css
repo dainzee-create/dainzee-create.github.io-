@@ -1,3 +1,5 @@
+@WebFont.load({google: {families: ["Roboto", "Lora"]}});
+
 body {
 	background-color: #a9e0f9;
 	padding: 0;
@@ -136,7 +138,7 @@ h2 {
 
 .summary {
 	position: absolute;
-	top: 14px;
+	top: 33px;
 	left: 25px;
 	background: radial-gradient(white, #a9e0f9);
 	border: 1px solid #122b4c;
@@ -149,7 +151,7 @@ h2 {
 
 .weathSum {
 	font-family: "Lora", serif;
-	font-size: .75rem;
+	font-size: .6rem;
 }
 
 .flex {
@@ -271,4 +273,8 @@ main figure.mainPic img {
 
 ul {
 	padding: 0;
+}
+
+.five {
+	display: none;
 }
