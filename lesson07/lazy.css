@@ -13,18 +13,15 @@ main {
   align-items: center;
 }
 
-img[img-src] {
-  filter: blur(.2em);
-}
-
 img {
   padding: 4px;
-  filter: blur(0em);
-  transition: filter 3s;
+  transition: filter .5s;
+  filter: blur(.5em);
 
 }
 
-
-
+img[data-src] {
+  filter: blur(0em);
+}
 
 

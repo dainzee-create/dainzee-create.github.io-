@@ -2,13 +2,12 @@ const imagesToLoad = document.querySelectorAll("img[data-src]");
 
 const imgOptions = {
   threshold: "1",
-  rootMargin: "1px 1px 50px 1px"
+  rootMargin: "0px 0px 50px 0px"
 };
 
 const loadImages = (image) => {
   image.setAttribute("src", image.getAttribute("data-src"));
-  image.onLoad = () => {
-    image.removeAttribute("data-src");};
+  image.onLoad = () => {image.removeAttribute("data-src");};
 };
 
 if ("IntersectionObserver" in window) {
