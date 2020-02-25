@@ -1,1 +1,1 @@
-WebFont.load({google: {families: ["Ubunto"]}});
+WebFont.load({google: {families: ["Ubuntu"]}});

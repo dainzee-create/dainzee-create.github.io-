@@ -1,6 +1,6 @@
 main {
   font-family: "Ubuntu", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,7 +15,7 @@ table {
 }
 
 td {
-  width: 125px 100px 125px;
+  grid-template-columns: 1fr 2fr 1fr;
   font-size: 1.3rem;
   text-align: center;
   padding: 10px;
@@ -23,10 +23,11 @@ td {
 }
 
 th {
-  font-size: 2.2rem;
+  font-size: 2.1rem;
   background-color: #7fb9c2;
   padding: 10px;
   color: black;
+  font-weight: bold;
 
 }
 
@@ -44,9 +45,13 @@ tr:nth-child(even) {
 
 tfoot tr td {
   background-color: #7fb9c2;
-  font-size: 1rem;
+  font-size: .9rem;
 }
 
+tbody tr.other {
+  font-weight: bold;
+  font-size: 2rem;
+}
 
 
 
