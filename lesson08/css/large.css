@@ -1,0 +1,48 @@
+@media only screen and (min-width: 60em) {
+  nav {
+    max-width: 100%;
+    font-size: 1.2rem;
+  }
+
+  .titleMotto h1 {
+    font-size: 2.5rem;
+  }
+
+  footer,
+  main {
+    max-width: 980px;
+    margin: 0 auto;
+
+  }
+
+  .grid {
+		grid-template-columns: 250px 250px 250px;
+		grid-column: span 3;
+  }
+
+  .boxShadow:hover {
+    box-shadow: 0 0 50px #122b4c;
+  }
+
+  .boxShadow, figcaption {
+    width:250px;
+  }
+
+  .radioDanger {
+    margin: 5px;
+  }
+
+  .addInfo {
+    margin-top: 25px;
+  }
+
+  footer {
+    margin-top: 25px;
+  }
+
+  .thankYou {
+    padding: 50px;
+  }
+
+}
+
