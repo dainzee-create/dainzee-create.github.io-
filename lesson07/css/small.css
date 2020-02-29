@@ -125,7 +125,8 @@ h1 {
 }
 
 figure {
-	margin: 4px;
+	margin: 1px;
+
 }
 
 img[data-src] {
@@ -134,8 +135,8 @@ img[data-src] {
 
 img {
   filter: blur(0em);
-  transition: filter 1s;
- }
+	transition: filter 1s;
+}
 
  figcaption {
 	font-family:"Lora", serif;
@@ -144,4 +145,8 @@ img {
 	margin-bottom: 8px;
 	text-align: center;
 
+ }
+
+ .head {
+	 margin: 4px;;
  }

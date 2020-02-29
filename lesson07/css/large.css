@@ -24,8 +24,14 @@
     box-shadow: 0 0 50px #122b4c;
   }
 
-  .boxShadow, figcaption {
-    width:250px;
+  .boxShadow {
+    width:100%;
+    margin: 0;
+  }
+
+  figcaption {
+    width:100%;
+    margin-bottom: 10px;
   }
 }
 
