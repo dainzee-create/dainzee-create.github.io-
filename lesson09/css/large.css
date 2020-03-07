@@ -1,0 +1,158 @@
+@media only screen and (min-width: 60em) {
+  nav {
+    max-width: 100%;
+    font-size: 1.2rem;
+  }
+
+  .titleMotto h1 {
+    font-size: 2.5rem;
+  }
+
+  footer,
+  main {
+    max-width: 980px;
+    margin: 0 auto;
+
+  }
+
+  .top {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+
+}
+
+
+.cards img {
+  width: 250px;
+}
+
+.homeEvents {
+  display: block;
+	background-color: #345681;
+	color: white;
+	font-family: "Roboto", sans-serif;
+	font-size: 1.1rem;
+	padding: 15px;
+	list-style: none;
+	line-height: 30px;
+  border: 5px solid #fcb431;
+  height: 100%;
+
+}
+
+.homeEvents li:nth-child(odd) {
+	margin-left: 5px;
+	font-family: "Lora", serif;
+	font-size: .9rem;
+	padding: 10px;
+}
+
+.events {
+	color: white;
+  padding: 10px;
+}
+
+.cards {
+	display: flex;
+	margin-top: 9px;
+
+}
+
+.top {
+	display: flex;
+}
+
+.cards section {
+  display: block;
+	padding: 12px;
+	margin: 10px;
+	background-color: white;
+	color: #345681;
+	text-align: center;
+  border: 5px solid #345681;
+}
+
+
+.cards h2 {
+	font-family: "Lora", serif;
+	font-weight: bold;
+	font-size: 2rem;
+}
+
+.cards h3 {
+	font-family: "Roboto", sans-serif;
+	font-size: .75rem;
+	color: #f7a103;
+  font-weight: bolder;
+  margin-top: -15px;
+
+}
+
+.cards p {
+	font-family: "Roboto", sans-serif;
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+
+.cardSurround {
+  height: 65%;
+  margin-left: 10px;
+
+}
+
+.mainArticle {
+  display: block;
+  width: 94%;
+  background-color: white;
+  padding: 18px;
+  margin-left: 10px;
+  font-family: "Roboto", sans-serif;
+  color: #345681;
+  margin-bottom: 20px;
+}
+
+.mainArtTitle {
+  text-align: left;
+  font-size: 1.7rem;
+  margin: 0;
+  margin-top: 10px;
+  font-family: "Lora", serif;
+
+}
+
+.mainArticle h2 {
+font-size: 1.1rem;
+margin-top: 5px;
+}
+
+.mainArticle p {
+  line-height: 25px;
+
+}
+
+.mainArticle img {
+  float: right;
+  width: 450px;
+  padding-left: 15px;
+}
+
+.homeImage {
+display: flex;
+align-content: center;
+justify-content: center;
+margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+

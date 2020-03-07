@@ -22,7 +22,7 @@ fetch(requestURL)
       place.textContent = "Place of Birth: " + prophets[i].birthplace;
 
       image.setAttribute('src', prophets[i].imageurl);
-      image.setAttribute('alt', "Picture of: " + h2.textContent);
+      image.setAttribute('alt', "Picture of: " + h2.textContent + "--" + prophets[i].order);
 
 
       card.appendChild(h2);

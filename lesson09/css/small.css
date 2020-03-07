@@ -1,0 +1,216 @@
+
+body {
+	background-color: #a9e0f9;
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	background-color: #fff;
+	padding: 15px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+header img {
+	width: 100px;
+	height: auto;
+
+}
+
+figure {
+	margin: 2px;
+}
+
+.titleMotto {
+	display: flex;
+	flex-direction: column;
+}
+
+.titleMotto h1 {
+	font-size: 1.6rem;
+	margin: 0 auto;
+	font-family: "Roboto", sans-serif;
+	color: #345681;
+
+}
+
+.motto {
+	font-family: "Lora", serif;
+	letter-spacing: 1pt;
+	color: #345681;
+	margin-top: 5px;
+	font-size: .9rem;
+}
+
+nav {
+	background-color: #345681;
+	color: white;
+	font-family: "Lora", serif;
+	margin: 0 auto;
+	max-width: 760px;
+	font-size: 1.2rem;
+
+}
+
+.navigation {
+	list-style: none;
+	margin: 0;
+
+}
+
+.navigation li:first-child {
+	display: block;
+
+}
+
+.navigation li {
+	display: none;
+}
+
+.navigation a {
+	display: block;
+	color: #fff;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	color: #345681;
+	background-color: #fcb431;
+
+}
+
+.responsive li {
+	display: block;
+}
+
+footer {
+	background-color: #345681;
+	color: white;
+	width: 100%;
+	max-width: 980px;
+	padding: 1px;
+	text-align: center;
+	line-height: 5px;
+	box-sizing: border-box;
+	margin-top: 25px;
+}
+
+.active {
+	background-color: #122b4c;
+}
+
+h1 {
+	font-size: 1.6rem;
+	font-family: "Roboto", sans-serif;
+	color: #345681;
+	text-align: center;
+	margin: 12px;
+}
+
+.cards img {
+  width: 350px;
+}
+
+.homeEvents {
+	display: none;
+}
+
+.cards {
+	display: block;
+
+}
+
+.cards section {
+	padding: 12px;
+	margin: 15px;
+	background-color: white;
+	color: #345681;
+	text-align: center;
+  border: 5px solid #345681;
+}
+
+
+.cards h2 {
+	font-family: "Lora", serif;
+	font-weight: bold;
+	font-size: 2rem;
+}
+
+.cards h3 {
+	font-family: "Roboto", sans-serif;
+	font-size: .75rem;
+	color: #f7a103;
+  font-weight: bolder;
+  margin-top: -15px;
+
+}
+
+.cards p {
+	font-family: "Roboto", sans-serif;
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+
+.cardSurround {
+  height: 65%;
+  margin-left: 10px;
+
+}
+
+.mainArticle {
+  display: block;
+  width: 87%;
+  background-color: white;
+  padding: 18px;
+  margin-left: 10px;
+  font-family: "Roboto", sans-serif;
+  color: #345681;
+  margin-bottom: 20px;
+}
+
+.mainArtTitle {
+  text-align: left;
+  font-size: 1.7rem;
+  margin: 0;
+  margin-top: 15px;
+  font-family: "Lora", serif;
+
+}
+
+.mainArticle h2 {
+font-size: 1.1rem;
+margin-top: 5px;
+}
+
+.mainArticle p {
+  line-height: 25px;
+
+}
+
+.mainArticle img {
+  width: 415px;
+}
+
+.homeImage {
+display: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
