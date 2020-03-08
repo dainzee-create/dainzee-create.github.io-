@@ -49,15 +49,6 @@
 
 		}
 
-		.cards section {
-			display: flex;
-			flex-direction: row;
-		}
-
-		.cards section:nth-child(even) {
-			flex-direction: row-reverse;
-		}
-
 		.mainArticle img {
 			float: right;
 			width: 450px;
@@ -70,10 +61,15 @@
 
 		}
 
-		.cards img {
-			width: 350px;
-
+		.cards Section {
+			display: flex;
+			flex-direction: row;
 		}
 
-	}
+		.cards Section:nth-child(even) {
+			flex-direction: row-reverse;
+		}
 
+
+
+	}

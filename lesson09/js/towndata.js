@@ -25,6 +25,12 @@ fetch(requestURL)
       year.textContent = "Year Founded: " + towns[i].yearFounded;
       pop.textContent = "Current Population: " + towns[i].currentPopulation;
       rain.textContent = "Average Rainfall: " + towns[i].averageRainfall;
+      card.setAttribute('class', 'infoSection');
+      name.setAttribute('id', 'cardsName');
+      motto.setAttribute('id', 'cardsMotto');
+      year.setAttribute('id', 'cardsYear');
+      pop.setAttribute('id', 'cardsPop');
+      rain.setAttribute('id', 'cardsRain');
       photo.setAttribute('src', "images/" + towns[i].photo);
       photo.setAttribute('alt', "Picture of: " + name.textContent);
 
