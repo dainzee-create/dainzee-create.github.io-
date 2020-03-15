@@ -1,0 +1,88 @@
+@media only screen and (min-width: 32.5em) {
+	.titleMotto h1 {
+		font-size: 2rem;
+	}
+
+	.motto {
+		letter-spacing: 1.5pt;
+		font-size: 1rem;
+		margin-left: 8px;
+	}
+
+	.navigation {
+		display: flex;
+	}
+
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+
+	.navigation li a {
+		color: white;
+		text-align: center;
+	}
+
+	.navigation li:first-child {
+		display: none;
+	}
+
+	nav {
+		width: 100%;
+		max-width: 980px;
+		font-size: 1rem;
+	}
+
+	.label,
+	#forecast1,
+	#forecast2,
+	#forecast3,
+	#forecast4,
+	#forecast5 {
+		display: block;
+	}
+
+	.flex {
+		display: flex;
+	}
+
+	.mapPreston {
+		display: inline-block;
+		width: 50%;
+		max-width: 350px;
+	}
+
+	.summary {
+		max-width: 260px;
+		position: absolute;
+		top: 43px;
+		left: 25px;
+	}
+
+	h2 {
+		font-size: 1.2rem;
+		text-align: center;
+		font-family: "Roboto", sans-serif;
+		color: #345681;
+		padding: 3px;
+	}
+
+	.weathSum {
+		font-family: "Lora", serif;
+		font-size: .6rem;
+	}
+
+	.contactMap {
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+
+	#popUp {
+		font-size: 1.5rem;
+	}
+
+	.five {
+		display: block;
+	}
+}

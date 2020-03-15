@@ -1,0 +1,72 @@
+@media only screen and (min-width: 60em) {
+
+  nav {
+    max-width: 100%;
+    font-size: 1.2rem;
+  }
+
+  .titleMotto h1 {
+    font-size: 2.5rem;
+  }
+
+  .article {
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  footer,
+  main {
+    max-width: 980px;
+    margin: 0 auto;
+
+  }
+
+  .smallpic {
+    float: right;
+    margin-top: 8px;
+    margin-right: 8px;
+    width: 600px;
+    margin-left: 12px;
+
+  }
+
+  .mapPreston {
+    margin-top: 8px;
+    margin-left: 8px;
+  }
+
+  .article {
+    text-align: left;
+  }
+
+  .artText {
+    margin-left: 10px;
+    line-height: 25px;
+  }
+
+  .summary {
+		max-width: 260px;
+		position: absolute;
+		top: 60px;
+		left: 25px;
+	}
+
+	h2 {
+		font-size: 1.6rem;
+		text-align: center;
+		font-family: "Roboto", sans-serif;
+		color: #345681;
+		padding: 7px;
+	}
+
+	.weathSum {
+		font-family: "Lora", serif;
+		font-size: 1.2rem;
+  }
+
+  .five {
+    display: block;
+  }
+}

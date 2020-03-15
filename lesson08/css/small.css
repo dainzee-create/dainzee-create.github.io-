@@ -116,7 +116,7 @@ ul {
 	padding: 0;
 }
 
-h1 {
+h1, h2 {
 	font-size: 1.6rem;
 	font-family: "Roboto", sans-serif;
 	color: #345681;
@@ -166,7 +166,7 @@ label, .danger {
 }
 
 .repInfo {
-	width:55vw;
+	width: 84vw;
 	display: grid;
 	align-items: center;
 	justify-content: center;
@@ -179,7 +179,7 @@ main {
 }
 
 .radioDanger {
-	margin-bottom: 45px;
+	margin-bottom: 40px;
 }
 
 .danger {

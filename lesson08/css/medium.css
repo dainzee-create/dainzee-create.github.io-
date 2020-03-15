@@ -37,6 +37,11 @@
 		font-size: 1.5rem;
 	}
 
+	.repInfo {
+		width: 60vw;
+		max-width: 700px;
+
+}
 }
 
 

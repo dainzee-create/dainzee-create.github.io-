@@ -38,12 +38,12 @@
     </ul>
   </nav>
   <main>
-    <h1>Storm Center</h1>
+    <h2>Storm Center</h1>
     <div class="background">
       <div class="repTitle">Reportee Information</div>
-      <form method="get" action="thanks.html"></form>
+      <form method="get" action="thanks.html">
         <fieldset class="repInfo">
-          <label>*Full Name<input class="inPut" type="text" name="fullName" pattern="[A-Za-z].{5,}"
+          <label>*Full Name<input class="inPut" type="text" name="fullName" pattern="[A-Za-z ]{5,}"
               required></label>
           <label>Email<input class="inPut" type="email" name="email"
               placeholder="email@gmail.com"></label>
@@ -92,6 +92,7 @@
           <label class="addInfo">Additional Information<textarea rows="8" cols="50"
               name="addInfo"></textarea></label>
           <label><input class="button" type="submit" value="Report Storm"></label></fieldset>
+          </form>
           </div>
   </main>
   <footer>
