@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+
+<head>
+  <title>Rainy Day Report | Preston</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Rainy Day Report | Preston ">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" href="../favicon.ico">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../normalize.css" type="text/css" />
+  <link rel="stylesheet" href="css/small.css" type="text/css" />
+  <link rel="stylesheet" href="css/medium.css" type="text/css" />
+  <link rel="stylesheet" href="css/large.css" type="text/css" />
+
+</head>
+
+<body>
+  <div id="popUp">Saturday = Preston Pancakes in the Park!<br>9:00 a.m. Saturday at the city park
+    pavilion.</div>
+  <header>
+    <picture class="prestonPic">
+      <img src="images/umbrella.png" alt="umbrella with rain logo" />
+    </picture>
+    <section class="titleMotto">
+      <h1>The Rainy Day Report</h1>
+      <div class="motto">"We're Here for You: Rain or Shine!"</div>
+    </section>
+  </header>
+  <nav>
+    <ul class="navigation">
+      <li><a class="hamb" href="#">&#9776; Menu</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li class="active"><a href="preston.html">Preston</a></li>
+      <li><a href="#">Soda Springs</a></li>
+      <li><a href="#">Fish Haven</a></li>
+      <li><a href="stormcenter.html">Storm Center</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+  </nav>
+  <main>
+    <div class="heroimage">
+      <h2 class="prestonHeader">Preston Idaho</h2>
+      <figure class="mainPic">
+        <img src="images/town980.jpg.jpg" alt="mountain range with bright sun" sizes="100vw" srcset="images/town400.jpg 400w,
+                images/town800.jpg 800w,
+                images/town980.jpg 980w">
+      </figure>
+      <section class="summary">
+        <h2 class="prestonHeader">Weather Summary</h2>
+        <p class="weathSum">Currently: <span id="current-temp"></span></p>
+        <p class="weathSum">High: <span id="temp"></span> &#8457;</p>
+        <p class="weathSum">Wind Chill: <span id="windChill"></span> &#8457;</p>
+        <p class="weathSum">Humidity: <span id="humid"></span>%</p>
+        <p class="weathSum">Wind Speed: <span id="windSpeed"></span> mph</p>
+      </section>
+    </div>
+    <h2 class="prestonHeader" id="five">5-Day Forecast</h2>
+    <div class="flex">
+      <div class="col">
+        <span id="forecast1" class="label"></span>
+        <img id="forecast1_image" src="" alt="">
+        <span id="forecast1_temp" class="data"></span>
+      </div>
+      <div class="col">
+        <span id="forecast2" class="label"></span>
+        <img id="forecast2_image" src="" alt="">
+        <span id="forecast2_temp" class="data"></span>
+      </div>
+      <div class="col">
+        <span id="forecast3" class="label"></span>
+        <img id="forecast3_image" src="" alt="">
+        <span id="forecast3_temp" class="data"></span>
+      </div>
+      <div class="col">
+        <span id="forecast4" class="label"></span>
+        <img id="forecast4_image" src="" alt="">
+        <span id="forecast4_temp" class="data"></span>
+      </div>
+      <div class="col">
+        <span id="forecast5" class="label"></span>
+        <img id="forecast5_image" src="" alt="">
+        <span id="forecast5_temp" class="data"></span>
+      </div>
+    </div>
+    <div class="article">
+      <img class="smallpic" src="images/rail.jpg" alt="railroad tracks" />
+      <h3 class="artText">Founders Day Fresco</h3>
+      <h4 class="artText">by Jessica Juarez</h4>
+      <p class="artText">I was recently reflecting upon the founders day event held at Foundation
+        Park each year. I
+        have been taking the festival for granted and have not been properly engaging in perhaps the
+        most popular community event of the year. In response, I contacted Ms. Sharon via email and
+        expressed my desire to serve on the event committee. Well, you guessed it, the phone rings
+        almost immediatelyand she promptly asks me to be the event committee chair. Literally, good
+        grief! My appreciation for the years of dedicated, generous service of volunteers and
+        sponsers has escalated beyond what I though I could feel for such a thing and &#8230; </p>
+    </div>
+    <div class="contactMap">
+      <img class="mapPreston" src="images/map.jpg" alt="map of Preston, Idaho" />
+      <div class="mapText">
+        <p class="firstCont">The Rainy Day Report</p>
+        <p class="conText">30 N 1st E</p>
+        <p class="conText">Preston, ID 83263</p>
+        <p class="conText">&#9742; 999.999.9999</p>
+        <p class="conText">&#9993; rainydayreport.com</p>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-pinterest"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-youtube"></a>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>
+      &copy;<span id="currentyear"></span> The Rainy Day Report |<a id="attrib" href="https://openweathermap.org/">Attributions</a> | Dayna M. Medina
+      <br></p>
+    <p><span id="currentdate"></span>
+    </p>
+  </footer>
+  <script src="js/banner.js"></script>
+  <script src="js/hamb.js"></script>
+  <script src="js/currentdate.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script src="js/webfont.js"></script>
+  <script src="js/preston-api.js"></script>
+  <script src="js/windchill.js"></script>
+</body>
+
+</html>
