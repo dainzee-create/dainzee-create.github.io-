@@ -193,7 +193,7 @@ table img {
 	padding: 5px;
 }
 
-#forecast1, #forecast2, #forecast3, #forecast4, #forecast5 {
+.data {
 	display: none;
 	padding: 0 5px 5px;
 	font-family: "Lora", serif;
@@ -278,9 +278,3 @@ ul {
 .five {
 	display: none;
 }
-
-footer a {
-	color: white;
-}
-
-

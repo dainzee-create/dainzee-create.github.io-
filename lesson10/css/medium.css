@@ -33,12 +33,7 @@
 		font-size: 1rem;
 	}
 
-	.label,
-	#forecast1,
-	#forecast2,
-	#forecast3,
-	#forecast4,
-	#forecast5 {
+	.label, .data {
 		display: block;
 	}
 
