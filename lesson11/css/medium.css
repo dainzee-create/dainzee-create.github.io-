@@ -1,4 +1,5 @@
 @media only screen and (min-width: 32.5em) {
+
 	/*preston and header and footer*/
 	.titleMotto h1 {
 		font-size: 2rem;
@@ -34,8 +35,10 @@
 		font-size: 1rem;
 	}
 
-	.label, .data {
+	.label,
+	.data {
 		display: block;
+
 	}
 
 	.flex {
@@ -61,6 +64,7 @@
 		font-family: "Roboto", sans-serif;
 		color: #345681;
 		padding: 3px;
+
 	}
 
 	.weathSum {
@@ -76,6 +80,25 @@
 
 	h2#five {
 		display: block;
+	}
+
+	.communityEvents {
+		margin-top: 10px;
+		width: 95%;
+
+	}
+
+	.communityEvents div {
+		font-size: 1rem;
+		line-height: 30px;
+		padding-bottom: 8px;
+
+	}
+
+	.communityEvents h2 {
+		font-size: 1.2rem;
+		font-weight: 500;
+
 	}
 
 	/*gallery page*/
@@ -96,57 +119,62 @@
 	.repInfo {
 		width: 60vw;
 		max-width: 700px;
-}
+	}
 
-/*home page*/
+	/*home page*/
 
-nav {
-	max-width: 100%;
-	font-size: 1.2rem;
-}
+	nav {
+		max-width: 100%;
+		font-size: 1.2rem;
+	}
 
-.titleMotto h1 {
-	font-size: 2.5rem;
-}
+	.titleMotto h1 {
+		font-size: 2.5rem;
+	}
 
-footer,
-main {
-	max-width: 980px;
-	margin: 0 auto;
+	footer,
+	main {
+		max-width: 980px;
+		margin: 0 auto;
 
-}
+	}
 
-.mainArticle img {
-	float: right;
-	width: 350px;
-	padding-left: 15px;
-}
+	.mainArticle img {
+		float: right;
+		width: 350px;
+		padding-left: 15px;
+	}
 
-.mainArticle {
-	width: 87%;
-	margin-left: 15px;
+	.mainArticle {
+		width: 87%;
+		margin-left: 15px;
 
-}
+	}
 
-.cards Section {
-	display: flex;
-	flex-direction: row;
-}
+	.cards Section {
+		display: flex;
+		flex-direction: row;
+	}
 
-.cards Section:nth-child(even) {
-	flex-direction: row-reverse;
-}
+	.cards Section:nth-child(even) {
+		flex-direction: row-reverse;
+	}
 
-.cardsDiv {
-	display: block;
-	width: 50%;
-	text-align: center;
-	margin-top: 45px;
-}
+	.cardsDiv {
+		display: block;
+		width: 50%;
+		text-align: center;
+		margin-top: 45px;
+	}
 
-cards.photo {
-	width: 50%;
-}
+	cards.photo {
+		width: 50%;
+	}
+
+	.cards h3 {
+		color: #3F8CC6;
+
+	}
 
 
 
