@@ -16,7 +16,7 @@ fetch(apiURL)
 
     if (t <= 50 && w > 3) {
       let windChill = 35.74 + (0.6215 * t) - (35.75 * p) + (0.4275 * t * p);
-      document.getElementById("windChill").textContent = Math.round(windChill);
+      document.getElementById("windChill").innerHTML = Math.round(windChill) + "&#176;F";
     } else {
       document.getElementById("windChill").textContent = "N/A";
     }

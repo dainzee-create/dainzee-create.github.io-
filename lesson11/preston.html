@@ -43,15 +43,16 @@
     <div class="heroimage">
       <h2 class="prestonHeader">Preston, Idaho</h2>
       <figure class="mainPic">
-        <img src="images/town980.jpg.jpg" alt="mountain range with bright sun" sizes="100vw" srcset="images/town400.jpg 400w,
+        <img src="images/town400.jpg.jpg" alt="mountain range with bright sun" srcset="images/town980.jpg 980w,
                 images/town800.jpg 800w,
-                images/town980.jpg 980w">
+                images/town400.jpg 400w"
+                sizes="(max-width: 1200px) 50vw, 100vw">
       </figure>
       <section class="summary">
         <h2 class="prestonHeader">Weather Summary</h2>
         <p class="weathSum">Currently: <span id="current-temp"></span></p>
         <p class="weathSum">High: <span id="temp"></span> &#8457;</p>
-        <p class="weathSum">Wind Chill: <span id="windChill"></span> &#8457;</p>
+        <p class="weathSum">Wind Chill: <span id="windChill"></span></p>
         <p class="weathSum">Humidity: <span id="humid"></span>%</p>
         <p class="weathSum">Wind Speed: <span id="windSpeed"></span> mph</p>
       </section>

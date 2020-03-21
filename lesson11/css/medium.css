@@ -52,14 +52,13 @@
 	}
 
 	.summary {
-		max-width: 260px;
 		position: absolute;
-		top: 43px;
+		top: 50px;
 		left: 25px;
 	}
 
 	.prestonHeader {
-		font-size: 1.2rem;
+		font-size: 1.4rem;
 		text-align: center;
 		font-family: "Roboto", sans-serif;
 		color: #345681;
@@ -69,7 +68,7 @@
 
 	.weathSum {
 		font-family: "Lora", serif;
-		font-size: .6rem;
+		font-size: 1rem;
 	}
 
 	.contactMap {
