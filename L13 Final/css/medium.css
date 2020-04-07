@@ -79,4 +79,41 @@
 		font-size: 2rem;
 	}
 
+	/* Trips */
+
+	.tripsMain {
+		display: grid;
+		grid-template-columns: 800px;
+		align-content: center;
+		justify-content: center;
+	}
+
+	.tripMain img {
+		float: right;
+		width: 350px;
+		margin-right: 12px;
+
+	}
+
+	.tripMain {
+		width: 100%;
+		background-color: #102a6d;
+		border: 8px solid #46b56d;
+		margin: 25px;
+		padding: 12px;
+	}
+
+	.tripMain h3 {
+		font-size: 2rem;
+		margin-top: 12px;
+	}
+	}
+
+
+
+
+
+
+
 }
+

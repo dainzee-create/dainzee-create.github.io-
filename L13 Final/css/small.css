@@ -37,7 +37,7 @@ nav {
 	color: white;
 	font-family: "Roboto Condensed", sans-serif;
 	margin: 0 auto;
-	max-width: 100%;
+	width: 100vw;
 	font-size: 1.2rem;
 
 }
@@ -97,7 +97,6 @@ footer {
 	background-color: #102a6d;
 	color: white;
 	width: 100vw;
-
 	padding: 10px;
 	text-align: center;
 	line-height: 5px;
@@ -253,10 +252,52 @@ font-family: "Roboto Condensed", sans-serif;
 font-size: 1.2rem;
 }
 
+/* trips */
 
+.tripMain h3 {
+	font-family: "Oregano", cursive;
+	font-size: 1.8rem;
+	margin-top: auto;
+	text-align: center;
+	color: #fecb49;
+	padding: 12px;
+}
 
+.tripMain p {
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 1.3rem;
+	color: white;
+	padding: 12px;
+	line-height: 30px;;
+	}
 
+.tripsMain {
+	display: grid;
+	align-items: center;
+	justify-content: center;
+}
 
+.tripMain img {
+	width: 309px;
+	border: 12px solid white;
+	margin-top: 12px;
+	margin-left: 12px;
+
+}
+
+.tripMain {
+	background-color: #102a6d;
+	border: 8px solid #46b56d;
+	display: block;
+	align-items: center;
+	justify-content: center;
+	margin: 20px;
+	width: 350px;
+	max-width: 90%;
+}
+
+.tripInfo {
+	margin: 8px;
 
 
 
