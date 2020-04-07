@@ -2,10 +2,10 @@
 <html lang="en-us">
 
 <head>
-  <title>Salmon River Rapid Riders | Home Page</Center>
+  <title>Salmon River Adventures | Home Page</Center>
   </title>
   <meta charset="utf-8">
-  <meta name="description" content="Salmon River Rapid Riders | Home Page">
+  <meta name="description" content="Salmon River Adventures | Home Page">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="shortcut icon" href="images/faviconRiver.ico">
   <link rel="stylesheet"
@@ -13,16 +13,15 @@
   <link rel="stylesheet" href="../normalize.css" type="text/css" />
   <link rel="stylesheet" href="css/small.css" type="text/css" />
   <link rel="stylesheet" href="css/medium.css" type="text/css" />
-  <link rel="stylesheet" href="css/large.css" type="text/css" />
 </head>
 
 <body>
   <header>
     <figure class="logo">
-      <img src="images/riverLogo.jpg" alt="Round Company Logo with Large Sun and River" />
+      <img src="images/riverLogo.png" alt="Round Company Logo with Large Sun and River" />
     </figure>
     <section>
-      <h1 class="navHeader">Salmon River Rapid Riders</h1>
+      <h1 class="navHeader">Salmon River Adventures</h1>
       <div class="navMotto">When Adventure Calls, We Paddle On!</div>
     </section>
   </header>
@@ -37,16 +36,88 @@
     </ul>
   </nav>
   <main>
+    <h1>Rafting Trips for All Levels</h1>
+    <h2>Experienced Service, Safety, and Fun!</h2>
+    <div class="reserveButton">
+      <a href="reservations.html">Book Your Adventure Today!</a></li>
+    </div>
+    <div class="homeMain">
+      <div class="homeImg">
+        <figure>
+          <img src="images/rafting.jpg" alt="Large group of people rafting down rapids">
+          <figcaption>Rafting Adventures</figcaption>
+        </figure>
+      </div>
+      <div class="homeImg">
+        <figure>
+          <img src="images/kayak.jpg"
+            alt="Two people kayaking on a river with pine trees in background">
+          <figcaption>Kayaking Fun</figcaption>
+        </figure>
+      </div>
+      <div class="homeImg">
+        <figure>
+          <img src="images/calmKayak.jpg" alt="Man Kayaking on calm river with purple sunset">
+          <figcaption>Day & Night Trips</figcaption>
+        </figure>
+      </div>
+      <div class="homeImg">
+        <figure>
+          <img src="images/youthGroup.jpg" alt="Group of Young kids Rafting down rapids">
+          <figcaption>Youth Group Tours</figcaption>
+        </figure>
+      </div>
+      <div class="homeImg">
+        <figure>
+          <img src="images/beginner.jpg" alt="Group on a raft on calm water">
+          <figcaption>Beginner's Courses</figcaption>
+        </figure>
+      </div>
+      <div class="homeImg">
+        <figure>
+          <img src="images/advanced.jpg" alt="Man in kayak in heavy rapids">
+          <figcaption>Advanced Trips</figcaption>
+        </figure>
+      </div>
+    </div>
+    <h2 class="weatherTitle">Current Weather</h2>
+    <div class="weather">
+      <div class="col">
+        <p>Currently: <span id="current-temp"></span></p>
+      </div>
+      <div class="col">
+        <p>High: <span id="temp"></span> &#8457;</p>
+      </div>
+      <div class="col">
+        <p>Wind Chill: <span id="windChill"></span></p>
+      </div>
+      <div class="col">
+        <p>Humidity: <span id="humid"></span>%</p>
+      </div>
+      <div class="col">
+        <p>Wind Speed: <span id="windSpeed"></span> mph</p>
+      </div>
+  </main>
 
-    <footer>
-      <p>
-        &copy;<span id="currentyear"></span> Salmon River Rapid Riders | Dayna M. Medina
-        </p>
-    </footer>
-    <script src="js/hamb.js"></script>
-    <script src="js/currentdate.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script src="js/webfont.js"></script>
-  </body>
+  <footer>
+    <img class="footLogo" src="images/riverLogo.png"
+      alt="Round Company Logo with Large Sun and River" />
+    <p class="footTitle">Salmon River Adventures</p>
+    <p>1000 Main Street, Riggins, Idaho 83549</p>
+    <p class="footNumb">478.897.1746 | SalmonRiverAdv@gmail.com</p>
+    <a href="https://www.facebook.com/" class="fa fa-facebook"></a><span
+      class="accessibility">Facebook link</span>
+    <a href="https://www.pinterest.com/" class="fa fa-pinterest"></a><span
+      class="accessibility">Pinterest link</span>
+    <a href="https://twitter.com/" class="fa fa-twitter"></a><span class="accessibility">Twitter
+      link</span>
+    <a href="https://www.youtube.com/" class="fa fa-youtube"></a><span class="accessibility">YouTube
+      link</span>
+  </footer>
+  <script src="js/hamb.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script src="js/webfont.js"></script>
+  <script src="js/weather.js"></script>
+</body>
 
-  </html>
+</html>

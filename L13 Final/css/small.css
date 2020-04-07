@@ -1,4 +1,7 @@
 /* Navigation */
+* {
+	box-sizing: border-box;
+}
 header {
 	background-color: #fff;
 	padding: 15px 0;
@@ -8,12 +11,12 @@ header {
 }
 
 .logo {
-	margin: 2px;
+	margin: 12px;
 
 }
 
 header img {
-	width: 100px;
+	width: 80px;
 	max-width: 100%;
 }
 
@@ -25,6 +28,7 @@ header img {
 	text-align: center;
 	font-size: 1.2rem;
 	margin-top: -18px;
+	font-weight: 900;
 
 }
 
@@ -33,7 +37,7 @@ nav {
 	color: white;
 	font-family: "Roboto Condensed", sans-serif;
 	margin: 0 auto;
-	max-width: 760px;
+	max-width: 100%;
 	font-size: 1.2rem;
 
 }
@@ -92,15 +96,165 @@ ul {
 footer {
 	background-color: #102a6d;
 	color: white;
-	width: 100%;
-	max-width: 980px;
-	padding: 1px;
+	width: 100vw;
+
+	padding: 10px;
 	text-align: center;
 	line-height: 5px;
 	box-sizing: border-box;
 	font-family: "Roboto Condensed", sans-serif;
 	font-size: 1.2rem;
+
 }
+
+.footLogo {
+	width: 60px;
+	padding-top: 5px;
+}
+
+.footTitle {
+	font-family: "Oregano", cursive;
+	font-size: 1.5rem;
+	color: #fecb49;
+}
+
+footer p {
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 1rem;
+	line-height: .5rem;
+}
+
+.fa {
+	padding: 12px;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+	margin: 8px;
+}
+
+.fa-facebook {
+	background-color: #3b5998;
+	color: white;
+}
+
+.fa-twitter {
+	background: #55ACEE;
+	color: white;
+}
+
+.fa-youtube {
+	background: #bb0000;
+	color: white;
+}
+
+.fa-pinterest {
+	background: #cb2027;
+	color: white;
+}
+
+.accessibility {
+	display: none;
+}
+
+/* Home Page Weather */
+
+.weather {
+	background-color: #46b56d;
+	display: flex;
+	padding: 10px;
+
+
+}
+
+.weatherTitle {
+	font-family: "Oregano", cursive;
+	text-align: center;
+	color: #102a6d;
+	font-size: 1.7rem;
+	margin-top: 15px;
+	padding-right: 12px;
+
+}
+
+.weather p {
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 1rem;
+	color: white;
+	text-align: center;
+	padding-right: 12px;
+	padding-left: 12px;
+
+}
+
+.col {
+	flex: 1 1 100%;
+	border: 3px solid white;
+	text-align: center;
+	background-color: #102a6d;
+}
+
+/* Home page */
+
+.homeMain {
+	display: grid;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.homeImg {
+	background-color: #102a6d;
+	border: 8px solid #46b56d;
+	display: block;
+	align-items: center;
+	justify-content: center;
+	margin: 20px;
+	width: 350px;
+	max-width: 90%;
+}
+
+.homeImg img {
+	width: 309px;
+	border: 12px solid white;
+	margin-left: -27px;
+}
+
+.homeImg figcaption {
+	font-family: "Oregano", cursive;
+	text-align: center;
+	color: white;
+	font-size: 1.7rem;
+	padding-top: 8px;;
+}
+
+main h1 {
+	font-family: "Oregano", cursive;
+	color: #102a6d;
+	font-size: 1.7rem;
+	text-align: center;
+	padding-top: 12px;
+}
+
+main h2 {
+	font-family: "Roboto Condensed", sans-serif;
+	color: #46b56d;
+	font-size: 1.3rem;
+	text-align: center;
+	margin-top: -10px;
+	font-weight: bold;
+}
+
+.reserveButton {
+display: grid;
+justify-content: center;
+align-content: center;
+font-family: "Roboto Condensed", sans-serif;
+font-size: 1.2rem;
+}
+
+
+
 
 
 
