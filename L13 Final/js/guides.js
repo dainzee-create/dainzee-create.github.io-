@@ -1,4 +1,4 @@
-const requestURL = 'https://dainzee-create.github.io/dainzee-create.github.io-/L13%20Final/rivGuides.json';
+const requestURL = 'https://dainzee-create.github.io/dainzee-create.github.io-/L13%20Final/directory/rivGuides.json';
 
 fetch(requestURL)
 .then(function (response) {
