@@ -1,17 +1,12 @@
-
-  const requestURL = "https://dainzee-create.github.io/dainzee-create.github.io-/L13%20Final/rivGuides.json";
+const requestURL = 'https://dainzee-create.github.io/dainzee-create.github.io-/L13%20Final/rivGuides.json';
 
   fetch(requestURL)
-  .then(function (response) {
-    return response.json();
-  })
-  .then(function (jsonObject) {
-    console.table(jsonObject);
-  });
+    .then((response) => response.json())
+    .then((jsonObject) => {
 
-  var guides = jsonObject["guides"];
+      const guides = jsonObject['guides'];
 
-    for (let i = 0; i < guides.length; i++ ) {
+      for (let i = 0; i < guides.length; i++) {
 
       let card = document.createElement('section');
       let h2 = document.createElement('h2');
@@ -41,6 +36,6 @@
 
       document.querySelector('div.guides').appendChild(card);
       }
-    ;
+    });
 
 
