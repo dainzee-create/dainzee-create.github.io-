@@ -1,4 +1,4 @@
-  const getURL = "C:\Users\dainz\OneDrive\Documents\GIT Repository\dainzee-create.github.io-\L13 Final\rivGuides.json";
+  const getURL = "https://dainzee-create.github.io/dainzee-create.github.io-/L13%20Final/rivGuides.json";
 
   fetch(requestURL)
   .then(function (response) {
