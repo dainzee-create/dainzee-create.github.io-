@@ -177,7 +177,13 @@ td {
 	display: block;
 	width: 98%;
 }
+/* Guides */
+
+.guides h2 {
+	font-size: 2.1rem;
 }
 
-
-
+.guides p {
+	font-size: 1.2rem;
+}
+}

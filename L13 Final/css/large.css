@@ -159,6 +159,14 @@ td {
 	display: block;
 	width: 98%;
 }
+
+/* Guides */
+
+.guides h2 {
+	font-size: 2.2rem;
 }
 
+.guides p {
+	font-size: 1.3rem;
+}
 }

@@ -409,6 +409,40 @@ td {
 	background-color: #102a6d;
 }
 
+/* Guides */
+
+.guideMain {
+	display: grid;
+	justify-content: center;
+	align-content: center;
+}
+
+.guides section {
+	text-align: center;
+	background-color: #102a6d;
+	color: white;
+	padding: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.guides img {
+	max-width: 350px;
+	width: 100%;
+}
+
+.guides h2 {
+	font-family: "Oregano", cursive;
+	color: #fecb49;
+	font-size: 1.8rem;
+	margin-top: 15px;
+}
+
+.guides p {
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 1rem;
+}
+
+
 
 
 
