@@ -36,21 +36,48 @@
       <li><a href="reservations.html">Reservations</a></li>
     </ul>
   </nav>
-  <main>
-    <footer>
-      <img class="footLogo" src="images/riverLogo.png" alt="Round Company Logo with Large Sun and River" />
-      <p class="footTitle">Salmon River Adventures</p>
+  <main class="contactMain">
+    <div class="contact">
+      <h3>Contact Us</h3>
+      <fieldset>
+      <label>Name<input class="inPut" type="text" name="fullName" pattern="[A-Za-z ]{5,}"
+          required></label><br>
+      <label>Email<input class="inPut" type="email" name="email"
+          placeholder="email@gmail.com"></label><br>
+      <label>Phone #<input class="inPut" type="tel" name="phone" required></label><br><br>
+      <label class="addInfo">Message<textarea rows="5" cols="33"
+          name="addInfo"></textarea></label>
+      <label><input class="button" type="submit" value="Send Message"></label></fieldset>
+    </div>
+    <div class="map">
+      <h3 class="location">Our Location</h3>
       <p>1000 Main Street, Riggins, Idaho 83549</p>
       <p class="footNumb">478.897.1746 | SalmonRiverAdv@gmail.com</p>
-        <a href="https://www.facebook.com/" class="fa fa-facebook"></a><span class="accessibility">Facebook link</span>
-        <a href="https://www.pinterest.com/" class="fa fa-pinterest"></a><span class="accessibility">Pinterest link</span>
-        <a href="https://twitter.com/" class="fa fa-twitter"></a><span class="accessibility">Twitter link</span>
-        <a href="https://www.youtube.com/" class="fa fa-youtube"></a><span class="accessibility">YouTube link</span>
-    </footer>
-    <script src="js/hamb.js"></script>
-    <script src="js/currentdate.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script src="js/webfont.js"></script>
-  </body>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.5925277275037!2d-116.31888488448116!3d45.41755577910043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54a6c56be892013d%3A0xf34792f82bc2a30b!2s1000%20Main%20St%2C%20Riggins%2C%20ID%2083549!5e0!3m2!1sen!2sus!4v1586291604141!5m2!1sen!2sus"
+        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+        aria-hidden="false" tabindex="0"></iframe>
+    </div>
+  </main>
+  <footer>
+    <img class="footLogo" src="images/riverLogo.png"
+      alt="Round Company Logo with Large Sun and River" />
+    <p class="footTitle">Salmon River Adventures</p>
+    <p>1000 Main Street, Riggins, Idaho 83549</p>
+    <p class="footNumb">478.897.1746 | SalmonRiverAdv@gmail.com</p>
+    <a href="https://www.facebook.com/" class="fa fa-facebook"></a><span
+      class="accessibility">Facebook link</span>
+    <a href="https://www.pinterest.com/" class="fa fa-pinterest"></a><span
+      class="accessibility">Pinterest link</span>
+    <a href="https://twitter.com/" class="fa fa-twitter"></a><span class="accessibility">Twitter
+      link</span>
+    <a href="https://www.youtube.com/" class="fa fa-youtube"></a><span class="accessibility">YouTube
+      link</span>
+  </footer>
+  <script src="js/hamb.js"></script>
+  <script src="js/currentdate.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script src="js/webfont.js"></script>
+</body>
 
-  </html>
+</html>

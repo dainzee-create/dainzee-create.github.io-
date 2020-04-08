@@ -36,7 +36,56 @@
       <li class="active"><a href="reservations.html">Reservations</a></li>
     </ul>
   </nav>
-  <main>
+  <main class="resMain">
+    <h1 class="resTitle">Adventures We Offer</h1>
+    <table>
+      <tr>
+        <th>Half-Day Trip</th>
+        <th>Two-Day Trip</th>
+        <th>Five-Day Trip</th>
+        <th>Kayak Course</th>
+      </tr>
+      <tr>
+        <td>Length:<br>3-4 Hours</td>
+        <td>Length:<br>3 Days</td>
+        <td>Length:<br>5 Days</td>
+        <td>Length:<br>2 Days</td>
+      </tr>
+      <tr>
+        <td>Skill:<br>Beginner</td>
+        <td>Skill:<br>Beginner</td>
+        <td>Skill:<br>Intermediate</td>
+        <td>Skill:<br>Beginner</td>
+      </tr>
+      <tr>
+        <td>Cost: $79/Adult<br>$59/Child</td>
+        <td>Cost: $425/Adult<br>$325/Child</td>
+        <td>Cost: $1495/Adult<br>$1095/Child</td>
+        <td>Cost:<br>$265</td>
+      </tr>
+    </table>
+    <div class="reserveForm">
+      <h2 class="reserveTitle">Make a Reservation</h2>
+      <fieldset>
+        <label>Full Name<input class="inPut" type="text" name="fullName" pattern="[A-Za-z ]{5,}"
+            required></label>
+        <label>Email<input class="inPut" type="email" name="email"
+            placeholder="email@gmail.com"></label>
+        <label>Phone Number<input class="inPut" type="tel" name="phone" required></label>
+        <label>Adventure Selection<input class="inPut" list="advSelect"><datalist id="advSelect">
+          <option value="Half-Day"></option>
+          <option value="Two-Day"></option>
+          <option value="Five-Day"></option>
+          <option value="Kayak Course"></option>
+        </datalist></label>
+        <label>Start Date<input class="inPut" type="date" name="date"></label>
+        <label class="addInfo">Questions/Comments<textarea rows="8" cols="46"
+            name="addInfo"></textarea></label>
+        <label><input class="button" type="submit" value="Make a Reservation"></label></fieldset>
+        </form>
+        </div>
+    </div>
+  </main>
     <footer>
       <img class="footLogo" src="images/riverLogo.png" alt="Round Company Logo with Large Sun and River" />
       <p class="footTitle">Salmon River Adventures</p>

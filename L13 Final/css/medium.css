@@ -107,13 +107,77 @@
 		font-size: 2rem;
 		margin-top: 12px;
 	}
-	}
 
+	/* Contact */
 
+.contactMain {
+	display: flex;
+}
 
+.map, .contact {
+	margin: 20px;
+	width: 400px;
+	max-width: 90%;
+}
 
+.map iframe {
+	width: 385px;
+	padding: 12px;
+}
 
-
+.contact h3 {
+	font-size: 2rem;
 
 }
+
+.addInfo {
+	width: 100%;
+}
+
+.map {
+	padding-bottom: 6px;
+}
+
+/* Reservation */
+
+.resMain {
+	width: 98%;
+	display: grid;
+	align-content: center;
+	justify-content: center;
+}
+
+.resTitle {
+	font-size: 2rem;
+
+}
+
+
+
+th {
+	font-size: 1.7rem;
+
+}
+
+td {
+	font-size: 1.4rem;
+	text-align: center;
+}
+
+.reserveTitle {
+	font-size: 2rem;
+}
+
+.reserveForm {
+	margin-top: 30px;
+	margin-bottom: 15px;;
+}
+
+.addInfo, .addInfo textarea {
+	display: block;
+	width: 98%;
+}
+}
+
+
 

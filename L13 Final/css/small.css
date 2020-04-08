@@ -188,7 +188,7 @@ footer p {
 
 .col {
 	flex: 1 1 100%;
-	border: 3px solid white;
+	border: 1px solid white;
 	text-align: center;
 	background-color: #102a6d;
 }
@@ -298,8 +298,116 @@ font-size: 1.2rem;
 
 .tripInfo {
 	margin: 8px;
+}
 
+/* Contact */
 
+.contactMain {
+	display: grid;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.map, .contact {
+	background-color: #102a6d;
+	border: 8px solid #46b56d;
+	display: block;
+	align-items: center;
+	justify-content: center;
+	margin: 20px;
+	width: 365px;
+	max-width: 90%;
+}
+
+.map iframe {
+	width: 350px;
+	padding: 12px;
+}
+
+.contact h3, .location {
+	font-family: "Oregano", cursive;
+	font-size: 1.8rem;
+	text-align: center;
+	color: #fecb49;
+}
+
+fieldset {
+	max-width: 100%;
+	padding: 10px;
+	margin: 5px;
+	font-family: "Roboto Condensed", sans-serif;
+	color: white;
+	font-size: 1.2rem;
+	border: none;
+}
+
+input, label, select {
+	display: block;
+	padding: 5px;
+	width: 98%;
+}
+
+.button {
+	background-color: #fecb49;
+	margin-top: 15px;
+	color: #102a6d;
+}
+
+.map p {
+	font-family: "Roboto Condensed", sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 1.1rem;
+}
+
+/* Reservation */
+
+.resTitle {
+	font-family: "Oregano", cursive;
+	font-size: 1.7rem;
+	color: #102a6d;
+	margin-bottom: 1px;
+	text-align: center;
+}
+
+table {
+	width: 100%;
+	border: 3px solid #102a6d;
+}
+
+th {
+	background-color: #102a6d;
+	font-family: "Oregano", cursive;
+	color: #fecb49;
+	font-size: 1.5rem;
+	font-weight: lighter;
+	border: 3px solid #102a6d;
+
+}
+
+td {
+	font-family: "Roboto Condensed", sans-serif;
+	color: #102a6d;
+	font-size: 1.2rem;
+	text-align: center;
+	line-height: 30px;
+	border: 3px solid #102a6d;
+}
+
+.reserveTitle {
+	font-family: "Oregano", cursive;
+	font-size: 1.7rem;
+	color: #fecb49;
+	margin-bottom: 1px;
+	text-align: center;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+
+.reserveForm {
+	background-color: #102a6d;
+}
 
 
 
