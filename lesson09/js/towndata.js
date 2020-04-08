@@ -42,6 +42,6 @@ fetch(requestURL)
       card.appendChild(photo);
 
       document.querySelector('div.cards').appendChild(card);
-  }}});
+  }}}));
 
 

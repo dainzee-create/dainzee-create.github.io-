@@ -1,6 +1,16 @@
-  const guides = "L13 Final\guide.json";
+  const getURL = "C:\Users\dainz\OneDrive\Documents\GIT Repository\dainzee-create.github.io-\L13 Final\rivGuides.json";
+
+  fetch(requestURL)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (jsObject) {
+    console.table(jsObject);
+
+  const guides = jsObject['guides'];
 
     for (let i = 0; i < guides.length; i++ ) {
+      if (guides[i].name == "Adam" || guides[i].name == "Jacob" || guides[i].name == "Anna") {
 
       let card = document.createElement('section');
       let h2 = document.createElement('h2');
@@ -29,6 +39,8 @@
       card.appendChild(imageurl);
 
       document.querySelector('div.guides').appendChild(card);
-  };
+      }
+    }
+    });
 
 
