@@ -1,4 +1,4 @@
-const requestURL =
+const requestURL = ""
 fetch(requestURL)
   .then(function (response) {
     return response.json();
