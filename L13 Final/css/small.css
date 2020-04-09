@@ -442,7 +442,33 @@ td {
 	font-size: 1rem;
 }
 
+/* Resource */
 
+#attrib {
+	color: white;
+	text-decoration: none;
+}
+
+.resourceMain h2 {
+	color: #fecb49;
+	font-family: "Oregano", cursive;
+	padding: 15px;
+	font-size: 1.6rem;;
+}
+
+.resourceMain div {
+	background-color: #102a6d;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	padding: 15px;
+}
+
+.resourceMain a {
+	color: white;
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 1.2rem;
+}
 
 
 
